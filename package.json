@@ -1,0 +1,52 @@
+{
+  "name": "html-dish",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/html-dish.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "eslint": "eslint --ext .jsx --ext .js src/",
+    "eslint:fix": "eslint --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xpl028/html-dish.git"
+  },
+  "keywords": [
+    "dish",
+    "react-dish",
+    "reactDish"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xpl028/html-dish/issues"
+  },
+  "homepage": "https://github.com/xpl028/html-dish#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.2",
+    "@babel/eslint-parser": "^7.14.2",
+    "@babel/helper-define-polyfill-provider": "^0.2.0",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-import-resolver-webpack": "^0.13.1",
+    "eslint-plugin-import": "^2.23.2",
+    "eslint-webpack-plugin": "^2.5.4",
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.37.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3"
+  }
+}
