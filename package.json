@@ -1,11 +1,8 @@
 {
   "name": "html-dish",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/html-dish.js",
-  "files": [
-    "lib"
-  ],
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack",
@@ -18,8 +15,8 @@
   },
   "keywords": [
     "dish",
-    "react-dish",
-    "reactDish"
+    "html-dish",
+    "htmlDish"
   ],
   "author": "",
   "license": "ISC",
